@@ -132,3 +132,4 @@ function Sidebar({ openSidebarToggle, OpenSidebar, handleTabClick }) {
 }
 
 export default Sidebar;
+

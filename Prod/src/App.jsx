@@ -17,6 +17,7 @@ function App() {
     setSelectedTab(tabName);
     setData({ ...data, [tabName]: tabData });
   };
+  
 
   return (
     <div className='grid-container'>
@@ -26,7 +27,9 @@ function App() {
         OpenSidebar={OpenSidebar}
         handleTabClick={handleTabClick}
       />
-      <Home data={data[selectedTab]} />
+      <Home data={data[selectedTab]} selectedTab={selectedTab} />
+
+
     </div>
   );
 }

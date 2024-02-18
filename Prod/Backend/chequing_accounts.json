@@ -28,17 +28,6 @@
         "Transaction Limit": "25 per month",
         "Additional Fees": "$1 per transaction after the 25 free; $0 per Interac e-transfer",
         "Interest Rate": "0%"
-    },
-    {
-        "Bank Account / Plan": "Innovation Credit Union No-Fee Bank Account",
-        "Transaction Limit": "unlimited",
-        "Additional Fees": "$0",
-        "Interest Rate": "0%"
-    },
-    {
-        "Bank Account / Plan": "Desjardins Premier Plan",
-        "Transaction Limit": "unlimited",
-        "Additional Fees": "$0 per transaction; $1.50 per Interac e-transfer",
-        "Interest Rate": "0%"
     }
+
 ]
