@@ -13,7 +13,7 @@
             "interestRate": "0.15%"
           },
           {
-            "bankAccount": "Tangerine No Fee Daily Chequing Account",
+            "Bank Account": "Tangerine No Fee Daily Chequing Account",
             "transactions": "unlimited",
             "additionalFees": "No fees for daily transactions",
             "interestRate": "Up to 0.10%"

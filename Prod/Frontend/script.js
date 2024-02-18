@@ -17,13 +17,16 @@
 
 
 // script.js
-export function openTab(tabId) {
-    return fetch(`/tab/${tabId}`)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          return response.json();
-        });
-  }
+export function openTab(tabName) {
+  // Assume each tabName corresponds to a specific JSON file
+  const jsonFileName = `${tabName.toLowerCase()}.json`;
+
+  return fetch(`/tab/${'../Backend/testdata.json'}`)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    });
+}
   

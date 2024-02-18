@@ -1,18 +1,38 @@
-// Home.jsx
+import React from 'react';
 
-import React from 'react'
- import 
- {BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsFillBellFill} 
- from 'react-icons/bs'
- import 
- { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } 
- from 'recharts';
+function Home({ data }) {
+  const chequingAccounts = data && data.ChequingAccounts;
 
-function Home() {
+  if (!chequingAccounts || Object.keys(chequingAccounts).length === 0) {
+    return (
+      <div>
+        <h2>No data available</h2>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <h2>Displaying Data:</h2>
+      <div className="main-cards">
+        {Object.entries(chequingAccounts).map(([key, value]) => (
+          <div key={key} className="card">
+            <h3></h3>
+            <ul>
+              {Object.entries(value).map(([property, propertyValue]) => (
+                <li key={property} class="card-inner">
+                  <strong>{property}</strong>: {propertyValue}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
-export default Home
-
+export default Home;
 //   return (
 //     <main className='main-container'>
 //         <div className='main-title'>

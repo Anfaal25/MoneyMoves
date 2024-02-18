@@ -1,14 +1,28 @@
-import React from 'react';
-import {openTab} from '../../Prod/Frontend/script.js';
+import React, { useState } from 'react';
+import { openTab } from '../../Prod/Frontend/script.js';
+import Home from './Home.jsx';
 import {
-  BsCart3, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill,
-  BsListCheck, BsMenuButtonWideFill, BsFillGearFill, BsCashStack
+  BsCashStack
 } from 'react-icons/bs';
 
-function Sidebar({ openSidebarToggle, OpenSidebar }) {
+function Sidebar({ openSidebarToggle, OpenSidebar, handleTabClick }) {
+  const [data, setData] = useState(null);
+
   const handleButtonClick = (tabName) => {
-    openTab(tabName);
-    console.log(`Button clicked for tab: ${tabName}`);
+    openTab(tabName)
+      .then((result) => {
+        setData(result);
+        console.log(`Button clicked for tab: ${tabName}`);
+        console.log('Fetched data:', result);
+
+        // Pass the tab name and corresponding data to the parent component
+        if (handleTabClick && typeof handleTabClick === 'function') {
+          handleTabClick(tabName, result);
+        }
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
   };
 
   return (
@@ -47,6 +61,8 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
           </button>
         </li>
       </ul>
+
+      {/* Do not render Home component here */}
     </aside>
   );
 }
