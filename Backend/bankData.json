@@ -1,40 +1,155 @@
 {
     "ChequingAccounts": [
-      {
-        "name": "Bank A",
-        "description": "Offering free online transactions.",
-        "url": "https://www.banka.com"
-      },
-      {
-        "name": "Bank B",
-        "description": "High-interest rates on your balance.",
-        "url": "https://www.bankb.com"
-      }
+        {
+            "bankAccount": "ScotiaBank Student Banking Advantage® Plan",
+            "transactions": "unlimited",
+            "additionalFees": "$0 monthly fee1",
+            "interestRate": "0%"
+          },
+          {
+            "bankAccount": "Motusbank No-Fee Chequing Account",
+            "transactions": "unlimited",
+            "additionalFees": "$0",
+            "interestRate": "0.15%"
+          },
+          {
+            "bankAccount": "Tangerine No Fee Daily Chequing Account",
+            "transactions": "unlimited",
+            "additionalFees": "No fees for daily transactions",
+            "interestRate": "Up to 0.10%"
+          },
+          {
+            "bankAccount": "CIBC Advantage for Students",
+            "transactions": "unlimited",
+            "additionalFees": "$0 transaction; $1.50 for Interac e-transfers",
+            "interestRate": "0%"
+          },
+          {
+            "bankAccount": "RBC Student Banking Account",
+            "transactions": "25 per month",
+            "additionalFees": "$1 per transaction after the 25 free; $0 per Interac e-transfer",
+            "interestRate": "0%"
+          },
+          {
+            "bankAccount": "Innovation Credit Union No-Fee Bank Account",
+            "transactions": "unlimited",
+            "additionalFees": "$0",
+            "interestRate": "0%"
+          },
+          {
+            "bankAccount": "Desjardins Premier Plan",
+            "transactions": "unlimited",
+            "additionalFees": "$0 per transaction; $1.50 per Interac e-transfer",
+            "interestRate": "0%"
+          }
     ],
+
+
     "SavingsAccounts": [
-      {
-        "name": "Bank C",
-        "description": "Competitive interest rates for savings.",
-        "url": "https://www.bankc.com"
-      },
-      {
-        "name": "Bank D",
-        "description": "Easy access to your funds with online banking.",
-        "url": "https://www.bankd.com"
-      }
+        [
+            {
+              "title": "Simplii Financial™ High Interest Savings Account",
+              "interestRate": "6.00%",
+              "monthlyFee": "$0",
+              "applyLink": "https://www.nerdwallet.com/ca/go/4552?section=pc"
+            },
+            {
+              "title": "Scotiabank MomentumPLUS Savings Account",
+              "interestRate": "Up to 5.60%*",
+              "monthlyFee": "$0",
+              "applyLink": "https://www.nerdwallet.com/ca/go/10178?section=pc"
+            },
+            {
+              "title": "RBC High Interest eSavings Account",
+              "interestRate": "5.50%*",
+              "monthlyFee": "$0",
+              "applyLink": "https://www.nerdwallet.com/ca/go/10173"
+            },
+            {
+              "title": "KOHO Spending and Savings Account",
+              "interestRate": "Up to 5.00%",
+              "monthlyFee": "$0-$19",
+              "applyLink": "https://www.nerdwallet.com/ca/go/3856?section=pc"
+            }
+          ]          
     ],
+
+
     "CreditCards": [
-      {
-        "name": "Bank E",
-        "description": "Cash back rewards on every purchase.",
-        "url": "https://www.banke.com"
-      },
-      {
-        "name": "Bank F",
-        "description": "Travel rewards and no foreign transaction fees.",
-        "url": "https://www.bankf.com"
-      }
+        [
+            {
+              "title": "BMO CashBack® Mastercard®* for Students",
+              "subtitle": "Best overall student card",
+              "annualFee": "$0",
+              "interestRates": "20.99% / 22.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/3504"
+            },
+            {
+              "title": "American Express Cobalt® Card",
+              "subtitle": "Best for: Points on restaurants",
+              "annualFee": "$155.88",
+              "interestRates": "20.99% / 21.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/3255"
+            },
+            {
+              "title": "Neo Secured Credit",
+              "subtitle": "Best for: Bad or no credit",
+              "annualFee": "$0",
+              "interestRates": "19.99%-29.99% / 22.99%-31.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/5981"
+            },
+            {
+              "title": "Tangerine Money-Back Credit Card",
+              "subtitle": "Best for: Customizable spending categories",
+              "annualFee": "$0",
+              "interestRates": "19.95%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/3299"
+            },
+            {
+              "title": "American Express® Green Card",
+              "subtitle": "Best for: Flat-rate reward points",
+              "annualFee": "$0",
+              "interestRates": "20.99% / 21.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/3518"
+            },
+            {
+              "title": "TD Rewards Visa* Card",
+              "subtitle": "Best for: Points on Expedia bookings",
+              "annualFee": "$0",
+              "interestRates": "19.99% / 22.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/8112"
+            },
+            {
+              "title": "RBC ION+ Visa Credit Card",
+              "subtitle": "Best for: Low annual fee",
+              "annualFee": "$48",
+              "interestRates": "20.99% / 22.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/17586"
+            },
+            {
+              "title": "BMO AIR MILES®† Mastercard®* for Students",
+              "subtitle": "Best for: AIR MILES points",
+              "annualFee": "$0",
+              "interestRates": "20.99% / 22.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/3500"
+            },
+            {
+              "title": "SimplyCash® Card from American Express",
+              "subtitle": "Best for: Cash back on everyday purchases with no fee",
+              "annualFee": "$0",
+              "interestRates": "20.99% / 21.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/3552"
+            },
+            {
+              "title": "SimplyCash® Preferred Card from American Express",
+              "subtitle": "Best for: Cash back rewards",
+              "annualFee": "$119.88",
+              "interestRates": "20.99% / 21.99%",
+              "applyLink": "https://www.nerdwallet.com/ca/go/3290"
+            }
+          ]    
     ],
+
 
     "investment_services": [
       {
