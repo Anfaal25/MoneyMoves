@@ -1,0 +1,111 @@
+{
+    "ChequingAccounts": [
+      {
+        "name": "Bank A",
+        "description": "Offering free online transactions.",
+        "url": "https://www.banka.com"
+      },
+      {
+        "name": "Bank B",
+        "description": "High-interest rates on your balance.",
+        "url": "https://www.bankb.com"
+      }
+    ],
+    "SavingsAccounts": [
+      {
+        "name": "Bank C",
+        "description": "Competitive interest rates for savings.",
+        "url": "https://www.bankc.com"
+      },
+      {
+        "name": "Bank D",
+        "description": "Easy access to your funds with online banking.",
+        "url": "https://www.bankd.com"
+      }
+    ],
+    "CreditCards": [
+      {
+        "name": "Bank E",
+        "description": "Cash back rewards on every purchase.",
+        "url": "https://www.banke.com"
+      },
+      {
+        "name": "Bank F",
+        "description": "Travel rewards and no foreign transaction fees.",
+        "url": "https://www.bankf.com"
+      }
+    ],
+    "personal_loans": [
+      {
+        "name": "Bank G",
+        "description": "Low-interest personal loans with flexible terms.",
+        "url": "https://www.bankg.com"
+      },
+      {
+        "name": "Bank H",
+        "description": "Quick approval process and no collateral required.",
+        "url": "https://www.bankh.com"
+      }
+    ],
+    "mortgages": [
+      {
+        "name": "Bank I",
+        "description": "Competitive mortgage rates for new home buyers.",
+        "url": "https://www.banki.com"
+      },
+      {
+        "name": "Bank J",
+        "description": "Refinancing options with reduced closing costs.",
+        "url": "https://www.bankj.com"
+      }
+    ],
+    "investment_services": [
+      {
+        "name": "Bank K",
+        "description": "Diverse portfolio options for every investor type.",
+        "url": "https://www.bankk.com"
+      },
+      {
+        "name": "Bank L",
+        "description": "Robust tools for self-managed investment accounts.",
+        "url": "https://www.bankl.com"
+      }
+    ],
+    "financial_planning": [
+      {
+        "name": "Bank M",
+        "description": "Personalized financial planning services.",
+        "url": "https://www.bankm.com"
+      },
+      {
+        "name": "Bank N",
+        "description": "Comprehensive retirement planning and advice.",
+        "url": "https://www.bankn.com"
+      }
+    ],
+    "insurance_products": [
+      {
+        "name": "Bank O",
+        "description": "Wide range of insurance products to protect you and your family.",
+        "url": "https://www.banko.com"
+      },
+      {
+        "name": "Bank P",
+        "description": "Affordable health and life insurance plans.",
+        "url": "https://www.bankp.com"
+      }
+    ],
+    "online_mobile_banking": [
+      {
+        "name": "Bank Q",
+        "description": "State-of-the-art online and mobile banking platform.",
+        "url": "https://www.bankq.com"
+      },
+      {
+        "name": "Bank R",
+        "description": "24/7 banking access with top-rated mobile app.",
+        "url": "https://www.bankr.com"
+      }
+    ]
+  }
+  

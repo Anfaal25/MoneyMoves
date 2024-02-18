@@ -3,33 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tab Interface</title>
+<title>Money Moves</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="container">
-  <div class="left-pane">
-    <button class="tab-button" onclick="openTab('react')">Insurance Policies</button>
-    <button class="tab-button" onclick="openTab('css')">Loans</button>
-    <button class="tab-button" onclick="openTab('nodejs')">Saving Accounts</button>
+  <div class="container">
+    <div class="left-pane">
+      <h>Personal Banking</h>
+      
+      <button class="tab-button" onclick="openTab('ChequingAccounts')">Chequing Accounts</button>
+      <button class="tab-button" onclick="openTab('SavingsAccounts')">Savings Accounts</button>
+      <button class="tab-button" onclick="openTab('CreditCards')">Credit Cards</button>
+      <button class="tab-button" onclick="openTab('personal_loans')">Personal Loans</button>
+      <button class="tab-button" onclick="openTab('mortgages')">Mortgages</button>
+      <button class="tab-button" onclick="openTab('investment_services')">Investment Services</button>
+      <button class="tab-button" onclick="openTab('financial_planning')">Financial Planning</button>
+      <button class="tab-button" onclick="openTab('insurance_products')">Insurance Products</button>
+      <button class="tab-button" onclick="openTab('online_mobile_banking')">Online and Mobile Banking</button>
+    </div>
+    
+    <div class="right-pane">
+      <!-- Content for the right pane -->
+    </div>
   </div>
   
-  <div class="right-pane">
-    <div id="react" class="tab-content">
-      <h3>React Basics</h3>
-      <p>Content for React Basics...</p>
-    </div>
-    <div id="css" class="tab-content" style="display:none;">
-      <h3>Advanced CSS</h3>
-      <p>Content for Advanced CSS...</p>
-    </div>
-    <div id="nodejs" class="tab-content" style="display:none;">
-      <h3>Node.js for Beginners</h3>
-      <p>Content for Node.js for Beginners...</p>
-    </div>
-  </div>
-</div>
 
 <script src="script.js"></script>
 </body>

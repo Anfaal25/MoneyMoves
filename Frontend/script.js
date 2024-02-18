@@ -1,12 +1,16 @@
-function openTab(tabName) {
-    // Hide all elements with class="tab-content" by default */
-    var i, tabcontent;
-    tabcontent = document.getElementsByClassName("tab-content");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-  
-    // Show the specific tab content
-    document.getElementById(tabName).style.display = "block";
-  }
-  
+function openTab(tabId) {
+  fetch(`/tab/${tabId}`)
+      .then(response => response.json())
+      .then(data => {
+          const content = data.map(bank => `
+              <div class="card">
+                  <img src="${bank.imageUrl}" alt="${bank.name}">
+                  <h3>${bank.name}</h3>
+                  <p>${bank.description}</p>
+                  <a href="${bank.url}" target="_blank">Visit Website</a>
+              </div>
+          `).join('');
+          document.querySelector('.right-pane').innerHTML = content;
+      })
+      .catch(error => console.error('Error loading the tab data:', error));
+}
