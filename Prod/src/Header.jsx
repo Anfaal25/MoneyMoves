@@ -10,7 +10,7 @@ function Header({OpenSidebar}) {
             <BsJustify className='icon' onClick={OpenSidebar}/>
         </div>
         <div className='header-left'>
-            <BsCashStack className='icon'/> worlds comes to shop
+             Money Moves
         </div>
         <div className='header-right'>
             
