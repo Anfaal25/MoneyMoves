@@ -1,0 +1,46 @@
+{
+    "ChequingAccounts": [
+        {
+            "bankAccount": "ScotiaBank Student Banking Advantage® Plan",
+            "transactions": "unlimited",
+            "additionalFees": "$0 monthly fee1",
+            "interestRate": "0%"
+          },
+          {
+            "bankAccount": "Motusbank No-Fee Chequing Account",
+            "transactions": "unlimited",
+            "additionalFees": "$0",
+            "interestRate": "0.15%"
+          },
+          {
+            "bankAccount": "Tangerine No Fee Daily Chequing Account",
+            "transactions": "unlimited",
+            "additionalFees": "No fees for daily transactions",
+            "interestRate": "Up to 0.10%"
+          },
+          {
+            "bankAccount": "CIBC Advantage for Students",
+            "transactions": "unlimited",
+            "additionalFees": "$0 transaction; $1.50 for Interac e-transfers",
+            "interestRate": "0%"
+          },
+          {
+            "bankAccount": "RBC Student Banking Account",
+            "transactions": "25 per month",
+            "additionalFees": "$1 per transaction after the 25 free; $0 per Interac e-transfer",
+            "interestRate": "0%"
+          },
+          {
+            "bankAccount": "Innovation Credit Union No-Fee Bank Account",
+            "transactions": "unlimited",
+            "additionalFees": "$0",
+            "interestRate": "0%"
+          },
+          {
+            "bankAccount": "Desjardins Premier Plan",
+            "transactions": "unlimited",
+            "additionalFees": "$0 per transaction; $1.50 per Interac e-transfer",
+            "interestRate": "0%"
+          }
+    ]
+}
