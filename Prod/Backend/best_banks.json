@@ -1,0 +1,76 @@
+[
+    {
+        "Bank Name": "BMO",
+        "Offer": "$100 cash bonus",
+        "Products": [
+            "BMO International Student GIC Program",
+            "Chequing accounts with Student Special Discount Program:",
+            "BMO Performance Plan",
+            "BMO Premium Plan"
+        ],
+        "Credit Cards": [
+            "BMO CashBack Mastercard",
+            "BMO AIR MILES Mastercard"
+        ],
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
+    },
+    {
+        "Bank Name": "CIBC",
+        "Offer": "$100 cash bonus",
+        "Products": [
+            "CIBC International Student GIC Program",
+            "Chequing accounts with CIBC Smart plans:",
+            "CIBC Smart for Students 25 and older",
+            "CIBC Smart Start for students and Youth under 25"
+        ],
+        "Credit Cards": [
+            "CIBC Dividend Visa Card for Students"
+        ],
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
+    },
+    {
+        "Bank Name": "RBC",
+        "Offer": "N/A",
+        "Products": [
+            "RBC International Student GIC Program",
+            "Chequing accounts:",
+            "RBC Advantage Banking for students"
+        ],
+        "Credit Cards": [
+            "RBC Cash Back Mastercard",
+            "RBC ION Visa"
+        ],
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
+    },
+    {
+        "Bank Name": "Scotiabank",
+        "Offer": "$100 cash bonus",
+        "Products": [
+            "Scotiabank Student GIC Program",
+            "Chequing accounts:",
+            "Student Banking Advantage Plan",
+            "Savings accounts:",
+            "MomentumPLUS Savings Account"
+        ],
+        "Credit Cards": [
+            "Scotiabank Scene+ Visa Card for Students"
+        ],
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
+    },
+    {
+        "Bank Name": "TD Bank",
+        "Offer": "$100 cash bonus",
+        "Products": [
+            "TD International Student GIC Program",
+            "Chequing accounts:",
+            "TD Student Chequing Account",
+            "Savings accounts:",
+            "TD Everyday Savings Account",
+            "TD ePremium Savings Account"
+        ],
+        "Credit Cards": [
+            "TD Rewards Visa Card"
+        ],
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
+    }
+]
