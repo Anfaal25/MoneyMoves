@@ -35,30 +35,7 @@
         "url": "https://www.bankf.com"
       }
     ],
-    "personal_loans": [
-      {
-        "name": "Bank G",
-        "description": "Low-interest personal loans with flexible terms.",
-        "url": "https://www.bankg.com"
-      },
-      {
-        "name": "Bank H",
-        "description": "Quick approval process and no collateral required.",
-        "url": "https://www.bankh.com"
-      }
-    ],
-    "mortgages": [
-      {
-        "name": "Bank I",
-        "description": "Competitive mortgage rates for new home buyers.",
-        "url": "https://www.banki.com"
-      },
-      {
-        "name": "Bank J",
-        "description": "Refinancing options with reduced closing costs.",
-        "url": "https://www.bankj.com"
-      }
-    ],
+
     "investment_services": [
       {
         "name": "Bank K",
@@ -71,30 +48,7 @@
         "url": "https://www.bankl.com"
       }
     ],
-    "financial_planning": [
-      {
-        "name": "Bank M",
-        "description": "Personalized financial planning services.",
-        "url": "https://www.bankm.com"
-      },
-      {
-        "name": "Bank N",
-        "description": "Comprehensive retirement planning and advice.",
-        "url": "https://www.bankn.com"
-      }
-    ],
-    "insurance_products": [
-      {
-        "name": "Bank O",
-        "description": "Wide range of insurance products to protect you and your family.",
-        "url": "https://www.banko.com"
-      },
-      {
-        "name": "Bank P",
-        "description": "Affordable health and life insurance plans.",
-        "url": "https://www.bankp.com"
-      }
-    ],
+
     "online_mobile_banking": [
       {
         "name": "Bank Q",
