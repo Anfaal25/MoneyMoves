@@ -100,10 +100,11 @@ body {
 }
 
 .card {
-  background-color: #32404a; /* Card background color */
+  background: linear-gradient(135deg, #6E48FF 0%, #9d50af 100%);
   border-radius: 12px; /* Rounded corners for cards */
   color: #ffffff; /* Text color for cards */
   padding: 20px; /* Padding inside cards */
+  
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow for prominence */
   transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions for interactions */
 }
@@ -143,4 +144,89 @@ body {
 
 .menu-icon {
   color: transparent;
+}
+
+/* Medium <= 992px */
+@media screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px auto;
+    grid-template-areas:
+      'header'
+      'main';
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+  }
+
+  .sidebar-title > span {
+    display: inline;
+  }
+
+  .main-container {
+    margin-left: 0; /* Adjust margin for smaller screens */
+  }
+}
+
+/* Small <= 768px */
+@media screen and (max-width: 768px) {
+  .main-cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .charts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+
+  .header {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
+
+  .sidebar-list-item {
+    padding: 15px 10px; /* Adjust padding for smaller screens */
+  }
+
+  .main-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .card-table {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    gap: 10px;
+  }
+
+  .card {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .button {
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Extra Small <= 576px */
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 0 5px; /* Further reduce padding for very small screens */
+  }
+
+  .sidebar-list-item {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  .main-container {
+    padding: 5px; /* Further reduce padding for very small screens */
+  }
+
+  .button {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
 }
