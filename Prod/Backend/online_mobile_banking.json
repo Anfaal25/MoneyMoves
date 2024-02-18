@@ -1,66 +1,66 @@
 [
     {
-        "bank_name": "EQ Bank",
-        "rating": "4.8 / 5",
-        "1_year_gic_rate": "5.25%",
-        "interest_rate": "2.5% + 1.5% Bonus",
-        "visit_link": "https://milliondollarjourney.com/recommended/eq-bank",
-        "description": "Simply Canada's Best Online Bank. Excellent savings interest rates, reloadable EQ Bank Card for purchases, superb platform, incredible value."
+        "Bank Name": "EQ Bank",
+        "Rating": "4.8 / 5",
+        "1-Year GIC Rate": "5.25%",
+        "Interest Rate": "2.5% + 1.5% Bonus",
+        "Link": "https://milliondollarjourney.com/recommended/eq-bank",
+        "Description": "Simply Canada's Best Online Bank. Excellent savings interest rates, reloadable EQ Bank Card for purchases, superb platform, incredible value."
     },
     {
-        "bank_name": "Tangerine",
-        "rating": "4.3 / 5",
-        "1_year_gic_rate": "4.90%",
-        "interest_rate": "1%",
-        "visit_link": "https://milliondollarjourney.com/recommended/tangerine-gic",
-        "description": "Runner up to EQ Bank. Used to have better rates. Good credit card options."
+        "Bank Name": "Tangerine",
+        "Rating": "4.3 / 5",
+        "1-Year GIC Rate": "4.90%",
+        "Interest Rate": "1%",
+        "Link": "https://milliondollarjourney.com/recommended/tangerine-gic",
+        "Description": "Runner up to EQ Bank. Used to have better rates. Good credit card options."
     },
     {
-        "bank_name": "Scotiabank",
-        "rating": "4 / 5",
-        "1_year_gic_rate": "3.30%",
-        "interest_rate": "1.40%, with special promo rate of up to 4.60%",
-        "visit_link": "https://milliondollarjourney.com/recommended/scotiabank",
-        "description": "Best Big Bank. Excellent chequing account and credit combination. Very nice welcome bonus."
+        "Bank Name": "Scotiabank",
+        "Rating": "4 / 5",
+        "1-Year GIC Rate": "3.30%",
+        "Interest Rate": "1.40%, with special promo rate of up to 4.60%",
+        "Link": "https://milliondollarjourney.com/recommended/scotiabank",
+        "Description": "Best Big Bank. Excellent chequing account and credit combination. Very nice welcome bonus."
     },
     {
-        "bank_name": "Simplii Financial",
-        "rating": "3.8 / 5",
-        "1_year_gic_rate": "5.10%",
-        "interest_rate": "0.40% (5.25% Teaser)",
-        "visit_link": "https://milliondollarjourney.com/recommended/simplii",
-        "description": "Best welcome bonus. Good no-fee chequing account and solid app"
+        "Bank Name": "Simplii Financial",
+        "Rating": "3.8 / 5",
+        "1-Year GIC Rate": "5.10%",
+        "Interest Rate": "0.40% (5.25% Teaser)",
+        "Link": "https://milliondollarjourney.com/recommended/simplii",
+        "Description": "Best welcome bonus. Good no-fee chequing account and solid app."
     },
     {
-        "bank_name": "Motusbank",
-        "rating": "3.7 / 5",
-        "1_year_gic_rate": "4.50%",
-        "interest_rate": "2.50%",
-        "visit_link": "https://milliondollarjourney.com/recommended/motusbank",
-        "description": ""
+        "Bank Name": "Motusbank",
+        "Rating": "3.7 / 5",
+        "1-Year GIC Rate": "4.50%",
+        "Interest Rate": "2.50%",
+        "Link": "https://milliondollarjourney.com/recommended/motusbank",
+        "Description": ""
     },
     {
-        "bank_name": "Motive Financial",
-        "rating": "3.4 / 5",
-        "1_year_gic_rate": "5.30%",
-        "interest_rate": "0.25% - 3%",
-        "visit_link": "https://milliondollarjourney.com/recommended/motive",
-        "description": "The best rates for chequing accounts: 0.25% in interest. Clunky platform and hefty transaction fees to withdraw from savings accounts."
+        "Bank Name": "Motive Financial",
+        "Rating": "3.4 / 5",
+        "1-Year GIC Rate": "5.30%",
+        "Interest Rate": "0.25% - 3%",
+        "Link": "https://milliondollarjourney.com/recommended/motive",
+        "Description": "The best rates for chequing accounts: 0.25% in interest. Clunky platform and hefty transaction fees to withdraw from savings accounts."
     },
     {
-        "bank_name": "Alterna Bank",
-        "rating": "2.9 / 5",
-        "1_year_gic_rate": "4.00%",
-        "interest_rate": "0.05% - 2.50%",
-        "visit_link": "https://milliondollarjourney.com/recommended/alterna",
-        "description": "Online investing partnership with Qtrade - the best broker in Canada."
+        "Bank Name": "Alterna Bank",
+        "Rating": "2.9 / 5",
+        "1-Year GIC Rate": "4.00%",
+        "Interest Rate": "0.05% - 2.50%",
+        "Link": "https://milliondollarjourney.com/recommended/alterna",
+        "Description": "Online investing partnership with Qtrade - the best broker in Canada."
     },
     {
-        "bank_name": "Oaken Financial",
-        "rating": "2.4 / 5",
-        "1_year_gic_rate": "5.40%",
-        "interest_rate": "3.4%",
-        "visit_link": "https://milliondollarjourney.com/recommended/oaken",
-        "description": "Good option for Quebec residents. Only savings account and GICs."
+        "Bank Name": "Oaken Financial",
+        "Rating": "2.4 / 5",
+        "1-Year GIC Rate": "5.40%",
+        "Interest Rate": "3.4%",
+        "Link": "https://milliondollarjourney.com/recommended/oaken",
+        "Description": "Good option for Quebec residents. Only savings account and GICs."
     }
 ]

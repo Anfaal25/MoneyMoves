@@ -1,66 +1,66 @@
 [
     {
-        "bank_name": "BMO",
-        "chequing_account_intro_offer": "$100 cash bonus",
-        "products": [
+        "Bank Name": "BMO",
+        "Offer": "$100 cash bonus",
+        "Products": [
             "BMO International Student GIC Program",
             "Chequing accounts with Student Special Discount Program:",
             "BMO Performance Plan",
             "BMO Premium Plan"
         ],
-        "credit_cards": [
+        "Credit Cards": [
             "BMO CashBack Mastercard",
             "BMO AIR MILES Mastercard"
         ],
-        "ways_to_bank": "Online, ATM, phone and branch banking."
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
     },
     {
-        "bank_name": "CIBC",
-        "chequing_account_intro_offer": "$100 cash bonus",
-        "products": [
+        "Bank Name": "CIBC",
+        "Offer": "$100 cash bonus",
+        "Products": [
             "CIBC International Student GIC Program",
             "Chequing accounts with CIBC Smart plans:",
             "CIBC Smart for Students 25 and older",
             "CIBC Smart Start for students and Youth under 25"
         ],
-        "credit_cards": [
+        "Credit Cards": [
             "CIBC Dividend Visa Card for Students"
         ],
-        "ways_to_bank": "Online, ATM, phone and branch banking."
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
     },
     {
-        "bank_name": "RBC",
-        "chequing_account_intro_offer": "N/A",
-        "products": [
+        "Bank Name": "RBC",
+        "Offer": "N/A",
+        "Products": [
             "RBC International Student GIC Program",
             "Chequing accounts:",
             "RBC Advantage Banking for students"
         ],
-        "credit_cards": [
+        "Credit Cards": [
             "RBC Cash Back Mastercard",
             "RBC ION Visa"
         ],
-        "ways_to_bank": "Online, ATM, phone and branch banking."
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
     },
     {
-        "bank_name": "Scotiabank",
-        "chequing_account_intro_offer": "$100 cash bonus",
-        "products": [
+        "Bank Name": "Scotiabank",
+        "Offer": "$100 cash bonus",
+        "Products": [
             "Scotiabank Student GIC Program",
             "Chequing accounts:",
             "Student Banking Advantage Plan",
             "Savings accounts:",
             "MomentumPLUS Savings Account"
         ],
-        "credit_cards": [
+        "Credit Cards": [
             "Scotiabank Scene+ Visa Card for Students"
         ],
-        "ways_to_bank": "Online, ATM, phone and branch banking."
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
     },
     {
-        "bank_name": "TD Bank",
-        "chequing_account_intro_offer": "$100 cash bonus",
-        "products": [
+        "Bank Name": "TD Bank",
+        "Offer": "$100 cash bonus",
+        "Products": [
             "TD International Student GIC Program",
             "Chequing accounts:",
             "TD Student Chequing Account",
@@ -68,22 +68,22 @@
             "TD Everyday Savings Account",
             "TD ePremium Savings Account"
         ],
-        "credit_cards": [
+        "Credit Cards": [
             "TD Rewards Visa Card"
         ],
-        "ways_to_bank": "Online, ATM, phone and branch banking."
+        "Ways To Bank": "Online, ATM, phone, and branch banking."
     },
     {
-        "bank_name": "Simplii Financial",
-        "chequing_account_intro_offer": "None. *A $125 referral bonus on an eligible account and a $50 welcome bonus on Student GIC Program Account",
-        "products": [
+        "Bank Name": "Simplii Financial",
+        "Offer": "None. *A $125 referral bonus on an eligible account and a $50 welcome bonus on Student GIC Program Account",
+        "Products": [
             "Simplii Financial International Student GIC Program",
             "Chequing accounts:",
             "A Simplii No Fee Bank Account with the Simplii Financial International Student Deposit Program"
         ],
-        "credit_cards": [
+        "Credit Cards": [
             "Simplii Financial Cash Back Visa Card"
         ],
-        "ways_to_bank": "Online, ATM and phone banking."
+        "Ways To Bank": "Online, ATM, and phone banking."
     }
 ]

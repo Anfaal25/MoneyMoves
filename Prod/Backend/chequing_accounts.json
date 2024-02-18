@@ -1,44 +1,44 @@
 [
     {
-        "bankAccount": "ScotiaBank Student Banking Advantage® Plan",
-        "transactions": "unlimited",
-        "additionalFees": "$0 monthly fee1",
-        "interestRate": "0%"
+        "Bank Account / Plan": "ScotiaBank Student Banking Advantage® Plan",
+        "Transaction Limit": "unlimited",
+        "Additional Fees": "$0 monthly fee1",
+        "Interest Rate": "0%"
     },
     {
-        "bankAccount": "Motusbank No-Fee Chequing Account",
-        "transactions": "unlimited",
-        "additionalFees": "$0",
-        "interestRate": "0.15%"
+        "Bank Account / Plan": "Motusbank No-Fee Chequing Account",
+        "Transaction Limit": "unlimited",
+        "Additional Fees": "$0",
+        "Interest Rate": "0.15%"
     },
     {
-        "Bank Account": "Tangerine No Fee Daily Chequing Account",
-        "transactions": "unlimited",
-        "additionalFees": "No fees for daily transactions",
-        "interestRate": "Up to 0.10%"
+        "Bank Account / Plan": "Tangerine No Fee Daily Chequing Account",
+        "Transaction Limit": "unlimited",
+        "Additional Fees": "No fees for daily transactions",
+        "Interest Rate": "Up to 0.10%"
     },
     {
-        "bankAccount": "CIBC Advantage for Students",
-        "transactions": "unlimited",
-        "additionalFees": "$0 transaction; $1.50 for Interac e-transfers",
-        "interestRate": "0%"
+        "Bank Account / Plan": "CIBC Advantage for Students",
+        "Transaction Limit": "unlimited",
+        "Additional Fees": "$0 transaction; $1.50 for Interac e-transfers",
+        "Interest Rate": "0%"
     },
     {
-        "bankAccount": "RBC Student Banking Account",
-        "transactions": "25 per month",
-        "additionalFees": "$1 per transaction after the 25 free; $0 per Interac e-transfer",
-        "interestRate": "0%"
+        "Bank Account / Plan": "RBC Student Banking Account",
+        "Transaction Limit": "25 per month",
+        "Additional Fees": "$1 per transaction after the 25 free; $0 per Interac e-transfer",
+        "Interest Rate": "0%"
     },
     {
-        "bankAccount": "Innovation Credit Union No-Fee Bank Account",
-        "transactions": "unlimited",
-        "additionalFees": "$0",
-        "interestRate": "0%"
+        "Bank Account / Plan": "Innovation Credit Union No-Fee Bank Account",
+        "Transaction Limit": "unlimited",
+        "Additional Fees": "$0",
+        "Interest Rate": "0%"
     },
     {
-        "bankAccount": "Desjardins Premier Plan",
-        "transactions": "unlimited",
-        "additionalFees": "$0 per transaction; $1.50 per Interac e-transfer",
-        "interestRate": "0%"
+        "Bank Account / Plan": "Desjardins Premier Plan",
+        "Transaction Limit": "unlimited",
+        "Additional Fees": "$0 per transaction; $1.50 per Interac e-transfer",
+        "Interest Rate": "0%"
     }
 ]
