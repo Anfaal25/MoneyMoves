@@ -1,0 +1,89 @@
+[
+    {
+        "bank_name": "BMO",
+        "chequing_account_intro_offer": "$100 cash bonus",
+        "products": [
+            "BMO International Student GIC Program",
+            "Chequing accounts with Student Special Discount Program:",
+            "BMO Performance Plan",
+            "BMO Premium Plan"
+        ],
+        "credit_cards": [
+            "BMO CashBack Mastercard",
+            "BMO AIR MILES Mastercard"
+        ],
+        "ways_to_bank": "Online, ATM, phone and branch banking."
+    },
+    {
+        "bank_name": "CIBC",
+        "chequing_account_intro_offer": "$100 cash bonus",
+        "products": [
+            "CIBC International Student GIC Program",
+            "Chequing accounts with CIBC Smart plans:",
+            "CIBC Smart for Students 25 and older",
+            "CIBC Smart Start for students and Youth under 25"
+        ],
+        "credit_cards": [
+            "CIBC Dividend Visa Card for Students"
+        ],
+        "ways_to_bank": "Online, ATM, phone and branch banking."
+    },
+    {
+        "bank_name": "RBC",
+        "chequing_account_intro_offer": "N/A",
+        "products": [
+            "RBC International Student GIC Program",
+            "Chequing accounts:",
+            "RBC Advantage Banking for students"
+        ],
+        "credit_cards": [
+            "RBC Cash Back Mastercard",
+            "RBC ION Visa"
+        ],
+        "ways_to_bank": "Online, ATM, phone and branch banking."
+    },
+    {
+        "bank_name": "Scotiabank",
+        "chequing_account_intro_offer": "$100 cash bonus",
+        "products": [
+            "Scotiabank Student GIC Program",
+            "Chequing accounts:",
+            "Student Banking Advantage Plan",
+            "Savings accounts:",
+            "MomentumPLUS Savings Account"
+        ],
+        "credit_cards": [
+            "Scotiabank Scene+ Visa Card for Students"
+        ],
+        "ways_to_bank": "Online, ATM, phone and branch banking."
+    },
+    {
+        "bank_name": "TD Bank",
+        "chequing_account_intro_offer": "$100 cash bonus",
+        "products": [
+            "TD International Student GIC Program",
+            "Chequing accounts:",
+            "TD Student Chequing Account",
+            "Savings accounts:",
+            "TD Everyday Savings Account",
+            "TD ePremium Savings Account"
+        ],
+        "credit_cards": [
+            "TD Rewards Visa Card"
+        ],
+        "ways_to_bank": "Online, ATM, phone and branch banking."
+    },
+    {
+        "bank_name": "Simplii Financial",
+        "chequing_account_intro_offer": "None. *A $125 referral bonus on an eligible account and a $50 welcome bonus on Student GIC Program Account",
+        "products": [
+            "Simplii Financial International Student GIC Program",
+            "Chequing accounts:",
+            "A Simplii No Fee Bank Account with the Simplii Financial International Student Deposit Program"
+        ],
+        "credit_cards": [
+            "Simplii Financial Cash Back Visa Card"
+        ],
+        "ways_to_bank": "Online, ATM and phone banking."
+    }
+]

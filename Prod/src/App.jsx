@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
@@ -7,7 +7,7 @@ import Home from './Home';
 function App() {
   const [openSidebarToggle, setOpenSidebarToggle] = useState(false);
   const [selectedTab, setSelectedTab] = useState(null);
-  const [data, setData] = useState(null);
+  const [data, setData] = useState({});
 
   const OpenSidebar = () => {
     setOpenSidebarToggle(!openSidebarToggle);
@@ -15,7 +15,7 @@ function App() {
 
   const handleTabClick = (tabName, tabData) => {
     setSelectedTab(tabName);
-    setData(tabData);
+    setData({ ...data, [tabName]: tabData });
   };
 
   return (
@@ -26,7 +26,7 @@ function App() {
         OpenSidebar={OpenSidebar}
         handleTabClick={handleTabClick}
       />
-      <Home data={selectedTab === 'ChequingAccounts' ? data : null} />
+      <Home data={data[selectedTab]} />
     </div>
   );
 }

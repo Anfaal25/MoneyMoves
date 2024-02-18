@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Simplii Financial™ High Interest Savings Account",
+        "interestRate": "6.00%",
+        "monthlyFee": "$0",
+        "applyLink": "https://www.nerdwallet.com/ca/go/4552?section=pc"
+    },
+    {
+        "title": "Scotiabank MomentumPLUS Savings Account",
+        "interestRate": "Up to 5.60%*",
+        "monthlyFee": "$0",
+        "applyLink": "https://www.nerdwallet.com/ca/go/10178?section=pc"
+    },
+    {
+        "title": "RBC High Interest eSavings Account",
+        "interestRate": "5.50%*",
+        "monthlyFee": "$0",
+        "applyLink": "https://www.nerdwallet.com/ca/go/10173"
+    },
+    {
+        "title": "KOHO Spending and Savings Account",
+        "interestRate": "Up to 5.00%",
+        "monthlyFee": "$0-$19",
+        "applyLink": "https://www.nerdwallet.com/ca/go/3856?section=pc"
+    }
+]
