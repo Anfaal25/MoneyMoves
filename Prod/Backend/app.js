@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 5173;
 
 // Serve static files from the Frontend directory
 app.use(express.static(path.join(__dirname, '..', 'Frontend')));

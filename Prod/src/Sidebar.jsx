@@ -1,4 +1,5 @@
 import React from 'react';
+import {openTab} from '../../Prod/Frontend/script.js';
 import {
   BsCart3, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill,
   BsListCheck, BsMenuButtonWideFill, BsFillGearFill, BsCashStack
@@ -6,7 +7,7 @@ import {
 
 function Sidebar({ openSidebarToggle, OpenSidebar }) {
   const handleButtonClick = (tabName) => {
-    // Add logic here for handling button click with the tabName
+    openTab(tabName);
     console.log(`Button clicked for tab: ${tabName}`);
   };
 
@@ -26,38 +27,23 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
           </button>
         </li>
         <li className='sidebar-list-item'>
+          <button className="tab-button" onClick={() => handleButtonClick('SavingsAccounts')}>
+            Savings Accounts
+          </button>
+        </li>
+        <li className='sidebar-list-item'>
           <button className="tab-button" onClick={() => handleButtonClick('CreditCards')}>
             Credit Cards
           </button>
         </li>
         <li className='sidebar-list-item'>
-          <button className="tab-button" onClick={() => handleButtonClick('personal_loans')}>
-            Personal Loans
-          </button>
-        </li>
-        <li className='sidebar-list-item'>
-          <button className="tab-button" onClick={() => handleButtonClick('mortgages')}>
-            Mortgages
-          </button>
-        </li>
-        <li className='sidebar-list-item'>
-          <button className="tab-button" onClick={() => handleButtonClick('investment_services')}>
-            Investment Services
-          </button>
-        </li>
-        <li className='sidebar-list-item'>
-          <button className="tab-button" onClick={() => handleButtonClick('financial_planning')}>
-            Financial Planning
-          </button>
-        </li>
-        <li className='sidebar-list-item'>
-          <button className="tab-button" onClick={() => handleButtonClick('insurance_products')}>
-            Insurance Products
-          </button>
-        </li>
-        <li className='sidebar-list-item'>
           <button className="tab-button" onClick={() => handleButtonClick('online_mobile_banking')}>
             Online and Mobile Banking
+          </button>
+        </li>
+        <li className='sidebar-list-item'>
+          <button className="tab-button" onClick={() => handleButtonClick('best_banks')}>
+            Best Banks
           </button>
         </li>
       </ul>
