@@ -11,6 +11,8 @@ MoneyMoves is a web-based platform designed to provide users with detailed infor
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Getting Started with Money Moves](#getting-started-with-money-moves)
+- [Conclusion](#conclusion)
+
 
 
 
@@ -66,5 +68,11 @@ This section outlines the steps to set up and start the Money Moves platform, en
 
 Remember, starting the frontend before the backend is crucial for proper integration and functionality of the Money Moves platform.
 
+## Conclusion
+
+Money Moves is more than just a platform; it's your financial compass in Canada. By bridging the gap between international students and Canadian banking services, we empower you to make knowledgeable financial decisions.
+From comparing bank products to accessing user reviews, Money Moves ensures your financial journey abroad is well-informed and stress-free. As we continue to update and expand our offerings, we look forward to becoming an integral part of your success story in Canada.
+
 ---
+
 
